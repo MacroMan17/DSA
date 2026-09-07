@@ -1,7 +1,7 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        long binary = n;
+        long long binary = n;
         double ans = 1;
         if (binary<0){
             x = 1/x;
